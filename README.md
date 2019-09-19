@@ -1,2 +1,2 @@
 # class-code
- This is code i have used in lectures
+Welcome to the class 
