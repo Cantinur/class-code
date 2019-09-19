@@ -1,0 +1,87 @@
+#root {
+    padding: 0 20%;
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    border: solid lightgray;
+    padding: 5px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.title{ 
+    margin-bottom: 10px; 
+    width: 100%;
+    text-align: left;
+    color:black;
+    font-size: 50px;
+} 
+
+td {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: gray;
+}
+
+#result {
+    width: 100%;
+    height: 50px;
+    border: 0;
+    color: black;
+    font-size: 30px;
+}
+
+input {
+    background-color: gray;
+}
+
+input[type="button"] { 
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+} 
+
+#reset-button {
+    background-color: darkred;
+    outline: none;
+    border: none;
+}
+
+#reset-button:hover {
+    background-color: red;
+    transition: all 0.3s
+}
+
+.function-key {
+    background-color: darkorange;
+}
+
+.function-key:hover {
+    background-color: orange;
+    transition: all 0.3s
+}
+
+input:hover {
+    background-color: lightgray;
+    transition: all 0.3s
+}
+
+input[type="button"]:active {
+    outline: none;
+    border: none;
+}
+
+input[type="text"] { 
+    background-color:white; 
+    width:100%;
+    height: 100%;
+} 
